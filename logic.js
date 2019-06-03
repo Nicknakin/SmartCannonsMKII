@@ -70,7 +70,7 @@ function newGeneration(){
         cannons.forEach(cannon => averageScore += cannon.score/numCannons);
     }
 
-    point.y = noise(cycles/50)*height;
+    point.y = noise(cycles/500)*height;
 
     fireCannons();
 }

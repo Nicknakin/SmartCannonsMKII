@@ -6,7 +6,7 @@ let averageScore = 0;
 let cycles = 0;
 
 function setup(){
-    createCanvas(window.innerWidth*0.95, window.innerHeight*0.95);
+    createCanvas(window.innerWidth, window.innerHeight);
 
     point = {x:width, y:height/2};
 
